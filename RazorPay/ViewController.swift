@@ -7,7 +7,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        razorpay = Razorpay.initWithKey("rzp_test_M5SSosZmoX7pg5", andDelegate: self)
+        razorpay = Razorpay.initWithKey("Your Razorpay Test/Production Key", andDelegate: self)
     }
     
     
